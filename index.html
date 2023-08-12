@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/3c330b0660.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meteo Weather Pondicherry</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="wrapper">
+        <script type="text/javascript">weather_data();</script>
+            <div class="location"><i class="fa-solid fa-location-dot"></i> Pondicherry, India</div>
+            <img class="main-img"src="istockphoto-1148231139-612x612.jpg" alt="">
+            <br>
+            <br>
+            <div class="screen" id="display_data"></div>
+            <br>
+            <table class="GeneratedTable">
+                <thead>
+                  <tr>
+                    <th>Temperature <i class="fa-solid fa-temperature-half"></i></th>
+                    <th>Wind Direction <i class="fa-solid fa-compass"></i></th>
+                    <th>WindSpeed <i class="fa-solid fa-wind"></i> </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td id="display-temp"></td>
+                    <td id="display-dir"></td>
+                    <td id="display-spd"></td>
+                  </tr>
+                </tbody>
+              </table> <br>
+              <div class="timer" id="display_time"></div>
+
+              
+        </div>
+    </div>
+    
+</body>
+</html>

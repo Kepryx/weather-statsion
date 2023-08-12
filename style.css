@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100;200;300;400;500;600;700;800;900&family=Montaga&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Tilt+Prism&display=swap');
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background-image: linear-gradient(21deg, #000000 0%, #202020 100%);
+    display: flex;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: #0e0e0e;
+    border: 1px solid rgba(255,255,255,0.01);
+    border-radius: 7px;
+    color: #eeeeee;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 35px;
+}
+
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    overflow: auto;
+    padding: 5px;
+    text-align: center;
+    width: 326px;
+    margin: 2% 0;
+}
+
+
+.location{
+    background: linear-gradient(156deg, #e7bb74, #db6912);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 3px;
+    font-size: 24px;
+    font-weight: 800;
+    height: 36px;
+}
+
+.main-img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.timer{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: small;
+}
+
+table.GeneratedTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color: #0d0d0d;
+    border-style: solid;
+    color: #dddddd;
+  }
+  
+  table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 0.25px;
+    border-color: #e7bb74;
+    font-family: 'Montserrat', sans-serif;
+    border-style: solid;
+    text-align: center;
+    padding: 3px;
+  }
